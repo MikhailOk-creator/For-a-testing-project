@@ -10,4 +10,15 @@ def determ(mas):
     return d
 
 
+def minus(mas):
+    for i in range(len(list(mas))):
+        for j in range(len(mas)):
+            mas[i][j] = mas[i][j]*(-1)
+
+    # print(mas)
+    return mas
+
+
+
 # determ(mas)
+# minus(mas)
